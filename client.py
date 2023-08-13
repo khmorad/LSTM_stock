@@ -1,12 +1,15 @@
 import requests
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import datetime
 import numpy as np
 from config import API_KEY
-API_KEY = 'bqPCHMpoyJBfZ3FAmtj23bq821Kx6IGh'
+#LSTM model
 
+#if the API_KEY is not working make sure to manually include it in this file
+#ex: API_KEY = '...'
+
+#not including input for quick testing
 company_symbol = 'AAPL'
 start_date = '2021-05-01'
 end_date = '2023-08-01'
